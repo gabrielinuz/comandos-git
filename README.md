@@ -7,7 +7,7 @@ Anotación de comandos de GIT, los corchetes < y > solo se usan para definir que
   
 2.Moverse al directorio del repositorio descargado (no es un comando de git, pero siempre nos olvidamos):
   
-  cd <directorio del repositorio descargado>
+  "cd <directorio del repositorio descargado>"
   
 3.Crear una rama, una raminifcación para poder modificar el código y mantener intacta la rama principal:
   
