@@ -1,7 +1,7 @@
 # comandos-git
 Anotación de comandos de GIT, los corchetes < y > solo se usan para definir que algo es condición para ejecutar un comando, no se deben escribir.
 
-1.Colnar el repositorio (descargarlo en nuestra computadora):
+1.Clonar el repositorio (descargarlo en nuestra computadora):
   
   ```git clone <https://link-con-nombre-del-repositorio>```
   
@@ -21,7 +21,7 @@ Anotación de comandos de GIT, los corchetes < y > solo se usan para definir que
 
   ```git checkout -b <nombre-de-la-rama>```
   
-6.Luego de agregar alguna funcionalidad o editar código, se pueden subir esos cambios con el siguiente proceso:
+6.Luego de agregar alguna funcionalidad o editar código, se pueden añadir estos cambios con el siguiente comando:
 
   ```git add <archivo o archivos modificados se parados por espacio que se deben subir>```
   
@@ -33,6 +33,10 @@ Anotación de comandos de GIT, los corchetes < y > solo se usan para definir que
   
   ```git add *```
   
+7.Git commit es como establecer un punto de control en el proceso de desarrollo. Es necesario escribir un mensaje corto para explicar qué hemos desarrollado o modificado en el código fuente. **Importante: Git commit guarda tus cambios únicamente en local, no en el servidor remoto, para eso precisamos usar el comando a continuación.**
   ```git commit -a -m <"mensaje-entre-comillas-que-explique-brevemente-la-corrección-o-funcionalidad-agregada">```
+  
+8.Subir tu commit o commits que hayas hecho al servidor remoto, siempre trabajando con el branch (rama) creado
 
-7.Subir
+```git push origin <nombre-de-la-rama>```
+
