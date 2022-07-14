@@ -54,4 +54,5 @@
 ### 12.El comando git pull se utiliza para recibir actualizaciones del repositorio remoto. Es una combinación para aplicar git fetch y git merge en un solo comando.
 
    ```git pull <origen> <destino_nombre_de_la_rama>``` 
+   
    *Por ejemplo: ```git pull origin main```*
