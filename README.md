@@ -25,4 +25,14 @@ Anotación de comandos de GIT, los corchetes < y > solo se usan para definir que
 
   ```git add <archivo o archivos modificados se parados por espacio que se deben subir>```
   
+  También se puede agregar todo con:
+  
+  ```git add -A```
+  
+  ó
+  
+  ```git add *```
+  
   ```git commit -a -m <"mensaje-entre-comillas-que-explique-brevemente-la-corrección-o-funcionalidad-agregada">```
+
+7.Subir
