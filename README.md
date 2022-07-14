@@ -41,3 +41,5 @@
 
 ```git push origin <nombre-de-la-rama>```
 
+### 9.Siempre podemos usar el comando git status para saber el estado actual y la información del repositorio:
+```git status```
