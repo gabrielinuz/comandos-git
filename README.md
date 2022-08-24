@@ -3,9 +3,12 @@
 
 ### 0.Guardar credenciales:
 ```git config --global credential.helper store```
-  Asegurarse de estar parado en una carpeta que sea un repo cualquiera y luego ejecutar:
+ 
+    Asegurarse de estar parado en una carpeta que sea un repo cualquiera y luego ejecutar:
+
 ```git pull```
-Luego de hacer el pull te pedirá tus credenciales (username y password) y estos datos serán guardados en un archivo en el disco (en la ubicación ~/.git-credentials). Esto quiere decir que no te los pedirá mas.
+    
+    Luego de hacer el pull te pedirá tus credenciales (username y password) y estos datos serán guardados en un archivo en el disco (en la ubicación ~/.git-credentials). Esto quiere decir que no te los pedirá mas.
 
 
 ### 1.Clonar el repositorio (descargarlo en nuestra computadora):
