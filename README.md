@@ -8,7 +8,7 @@
 
 ```git pull```
     
-    Luego de hacer el pull te pedirá tus credenciales (username y password) y estos datos serán guardados en un archivo en el disco (en la ubicación ~/.git-credentials). Esto quiere decir que no te los pedirá mas.
+    Luego de hacer el pull te pedirá tus credenciales (username y password) y estos datos serán guardados en un archivo en el disco (en la ubicación ~/.git-credentials). Esto quiere decir que no te los pedirá mas. Más info: https://git-scm.com/book/es/v2/Herramientas-de-Git-Almacenamiento-de-credenciales
 
 
 ### 1.Clonar el repositorio (descargarlo en nuestra computadora):
